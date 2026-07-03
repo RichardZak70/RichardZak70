@@ -42,10 +42,10 @@
 
 ## Available For
 
-- Agentic AI Development contracts ($150-300/hr)
-- Fractional CTO / VP Engineering ($200-500/hr)
-- Technical Due Diligence ($150-350/hr)
-- Full-time Executive roles ($400K+/year)
+- Agentic AI Development contracts
+- Fractional CTO / VP Engineering
+- Product Development 
+- Full-time Executive roles
 
 ## Work Authorization
 
