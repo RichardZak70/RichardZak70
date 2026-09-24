@@ -17,19 +17,15 @@ What I bring that's rare: I can take a product from schematic and firmware throu
 ## Current Work
 
 **IDEXX Laboratories, Water Division** - Contract Engineer, Hardware/Firmware (2024-present)
-- Embedded platform lead on Raspberry Pi CM5 across several water-diagnostics instruments (TECTA, Quanti-Tray Reader, UV Viewer Plus): carrier-board design, embedded Linux, Qt/PySide6 GUIs
-- Precision PT1000 temperature measurement on a 24-bit ADC; PIC32 supervisor firmware with PID control and a three-level e-stop safety chain
+- Embedded platform lead across several water-diagnostics instruments (TECTA, Quanti-Tray Reader, UV Viewer Plus): carrier-board design hardware, firmware, and testing software
+- Precision temperature measurement on a 24-bit ADC; PID control and a three-level e-stop safety chain
 - Automated PCB signal-integrity and Ethernet PHY compliance test suites (oscilloscope automation over PyVISA, openEMS field simulation, USB 2.0 and IEEE 802.3 masks)
-- Took the UV Viewer Plus from early electrical design through UL/EMC certification to contract-manufacturer production
-- Built the team's engineering knowledge base and CLI tooling, with Claude Code and custom MCP servers in the development loop
+- Responsible for early electrica design work through UL/EMC support for certification to contract-manufacturer production
 
 **RZ Consulting** - Owner, Engineering Consultant (2024-present). Clients and projects include:
-- **Stout Industrial Technology** - multi-phase AI-assisted cost engineering on the Smart Cultivator agricultural robotics line: a Python costing pipeline (80 modules, 1,400+ tests), supplier sourcing, and a deterministic RFQ generator where every field is either cited or has a named owner
-- **Cancoil Thermal Corporation** - my longest client relationship: coil-line automation feasibility, process-time studies, cost-down reporting for OEM programs, and custom electrical test equipment
-- **Place Manufacturing** - CNC lathe chuck-position monitor and safety interlock: a FastAPI + Svelte 5 appliance with a hardware simulator, NAMUR fault handling and bilingual EN/FR operator manuals; plus a rebuild of the company website
+- **Stout Industrial Technology** - multi-phase AI-assisted cost engineering on the Smart Cultivator agricultural ai software line, supplier sourcing, used custom software design to speed up workflows for generating RFQs, setting up supply chains, working on cost reduction for manufacturing.
+- **Cancoil Thermal Corporation** - coil-line automation feasibility and process-time studies.
 - **Sukanya Online** - AI-driven scale-up of an online Thai grocery: a Shopify Hydrogen storefront, a trilingual (English/Thai/French) catalogue pipeline with an approval gate, QuickBooks automation, and a roster of marketing and analytics agents
-- **Mochi Charms** - Shopify Hydrogen storefront on Oxygen with a bilingual EN/FR experience
-- **Kimco Steel** - website rebuild and internal operations tooling
 
 **Fox Run Technologies** - Co-founder and Lead Engineer (2025-present)
 - **Mira**, an ambient smart mirror: voice pipeline with cloud-first (Deepgram, Claude, Azure Neural TTS) and local fallback (faster-whisper, llama.cpp, Piper); a hardware abstraction layer that runs the same stack on a laptop simulator and CM5 hardware; a Svelte 5 kiosk UI, a Capacitor mobile app, and the commercial site at [foxrun.ai](https://foxrun.ai)
@@ -40,7 +36,7 @@ What I bring that's rare: I can take a product from schematic and firmware throu
 ## Agentic AI Systems I've Built
 
 - **A deterministic data platform for business records.** A Python pipeline that turns email, bank and card statements, invoices, QuickBooks, Shopify, PayPal and Wise data into 100,000+ normalized Markdown notes across seven Obsidian vaults. No LLM and no network in the ingest path, byte-identical re-runs, `Decimal` money, and a running-balance proof over every statement it emits. The AI works on top of the data, never inside the pipeline that produces it.
-- **Governance for parallel AI sessions.** 26 Claude Code hooks that enforce write boundaries, determinism, privacy rules for shared workspaces, and a task-claim protocol so several Claude Code sessions can work the same repository without overwriting each other. A roster of 30 specialist agents (bookkeeping, tax review, storefront, CFIA compliance, procurement) with 38 slash commands.
+- **Governance for parallel AI sessions.** 26 Claude Code hooks that enforce write boundaries, determinism, privacy rules for shared workspaces, and a task-claim protocol so several Claude Code sessions can work the same repository without overwriting each other. A roster of 30 specialist agents (bookkeeping, tax review, storefront, compliance, procurement) with slash commands.
 - **MCP servers.** Production MCP servers for engineering and business workflows, including a standard-library OAuth 2.0 MCP server that gives the Claude iOS app scoped, per-user read access to the vaults and handles phone photo capture.
 - **API connectors and observability.** Connectors for QuickBooks Online, Shopify, PayPal, Wise and Cloudflare with encrypted credentials, IMAP/OAuth email acquisition that fetches incrementally, and a health dashboard with a daily review loop that turns failures into tracked issues.
 - **Claude API tooling.** A budget-gated CLI for prompt audits, model migrations, cost optimization, eval building and hill-climbing, with spend tracking on every call.
@@ -50,8 +46,7 @@ What I bring that's rare: I can take a product from schematic and firmware throu
 - **Kingston Aluminum Technology** - VP Engineering (2022-2024). Built the engineering organization and led automation of production lines for patented formed-aluminum bottles.
 - **BOJAK Manufacturing** - Founder and President (2015-2022). Turnkey robotic stacking systems, conveyors and material handling for automotive OEMs; ISO 9001 certified in the first year.
 - **BGM Metalworks** - President (2012-2015). 200% sales growth in one year.
-- **Transformix Engineering** - Co-founder, VP Operations (1998-2012). Automation for automotive, medical device and pharmaceutical clients; grew from a basement to a 90,000 sq ft facility, $30M+ revenue and 90+ employees.
-- **Sciemetric Instruments** - Design Engineer (1993-1995). Data acquisition and control hardware for automotive and medical-device automation.
+- **Transformix Engineering** - Co-founder, VP Operations (1995-2012). Automation for automotive, medical device and pharmaceutical clients; grew from a basement to a 90,000 sq ft facility, $30M+ revenue and 90+ employees.
 
 ## Tech Stack
 
