@@ -17,7 +17,7 @@ What I bring that's rare: I can take a product from schematic and firmware throu
 ## Current Work
 
 **IDEXX Laboratories, Water Division** - Contract Engineer, Hardware/Firmware (2024-present)
-- Embedded platform lead across several water-diagnostics instruments (TECTA, Quanti-Tray Reader, UV Viewer Plus): carrier-board design hardware, firmware, and testing software
+- Embedded platform lead across several water-diagnostics instruments; carrier-board design hardware, firmware, and testing software
 - Precision temperature measurement on a 24-bit ADC; PID control and a three-level e-stop safety chain
 - Automated PCB signal-integrity and Ethernet PHY compliance test suites (oscilloscope automation over PyVISA, openEMS field simulation, USB 2.0 and IEEE 802.3 masks)
 - Responsible for early electrica design work through UL/EMC support for certification to contract-manufacturer production
